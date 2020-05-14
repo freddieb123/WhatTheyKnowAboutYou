@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What They Know About You</title>
+    <link href='./style.css' rel = 'stylesheet' type = "text/css">
+
+
+  </head>
+
+  <body>
+    <h1 id = 'page-title'> What They Know About You </h1>
+    <div class = 'topnav'>
+      <a href = '../../index.html'>Home</a>
+      <a href = "./index.html">Google Ads</a>
+      <a href = "../../LocationHistory/index.html">Google Location</a>
+    </div>
+    <h3> Google Ad Data</h3>
+    <div id = 'exp'>
+    <p>You have access to a list of all the websites where you have ever seen an advert served to you
+      by Google. This is a long, boring JSON file. However you can just upload here for a nice visual summary. <br><br>
+    Instructions:<br></p>
+    <ol>
+      <li>Follow the instructions on the homepage to download your data from Google. You should have downloaded the <strong>My Activity</strong> selection to get Ads data. </li>
+      <li>Click upload below, and select the file called <strong>MyActivity.json</strong>, in the <strong>Ads</strong> folder. </li>
+      <li>Have a look at your data that will appear below. You will be able to see how many ads you see, and where you see them most. </li>
+
+      <label for="upload">Upload your file:</label>
+      <input type="file" id="fileupload" name="upload" accept="file/json"/>
+  </div>
+    <div id='chart1'></div>
+    <div id='chart2'></div>
+    <div id="slider-color-picker"></div>
+
+
+
+    <script type = text/javascript src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script type = text/javascript src = './Quantity/linechart.js'></script>
+    <script type = text/javascript src = './Location/bubblechart.js'></script>
+  </body>
+</html>

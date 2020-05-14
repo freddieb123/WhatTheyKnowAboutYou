@@ -1,0 +1,74 @@
+#page-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "American Typewriter";
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+nav {
+  margin:20px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+.topnav {
+  margin-bottom: 30px;
+  font-family: "American Typewriter";
+}
+
+.topnav a {
+  margin: 20px
+}
+
+h3 {
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+  font-family: "Courier New";
+}
+
+
+body {
+  max-width: 1500px;
+  text-align: center;
+  margin: 10px;
+    }
+
+#exp {
+  text-align: justify;
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  font-family: "Courier New";
+}
+
+li {
+  margin: 10px 0
+}
+
+#fileupload {
+  margin-top: 20px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #008AB8;
+  border: 0px;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+#slider-color-picker{
+  text-align: center;
+}
+
+#chart1, #chart2 {
+  text-align: center;
+}
