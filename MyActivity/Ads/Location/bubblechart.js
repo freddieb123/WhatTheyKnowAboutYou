@@ -1,4 +1,5 @@
 let reader2 = new FileReader();
+let data;
 
 input = document.querySelector('input[type=file]');
 input.addEventListener("change", function(event) {
