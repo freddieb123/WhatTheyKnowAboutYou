@@ -1,4 +1,4 @@
-# WhatTheyKnowAboutYou
+# WhatTheyKnowAboutYou.com
 
 What They Know About You is a project aimed at helping people become more aware of the data that is collected about them. It was also a good opportunity for me to learn some D3.js.
 
