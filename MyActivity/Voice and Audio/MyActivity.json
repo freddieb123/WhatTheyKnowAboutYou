@@ -1,0 +1,433 @@
+[{
+  "header": "Google App",
+  "title": "Said Barcelona weather forecast",
+  "titleUrl": "https://www.google.com/search?q\u003dBarcelona+weather+forecast",
+  "time": "2020-02-26T10:06:17.442Z",
+  "audioFiles": ["2020-02-26_10_06_17_442_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said flights from very different now they are",
+  "titleUrl": "https://www.google.com/search?q\u003dflights+from+very+different+now+they+are",
+  "time": "2019-12-29T19:39:26.509Z",
+  "audioFiles": ["2019-12-29_19_39_26_509_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what time does McDonald\u0027s breakfast finish in Spain",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+time+does+McDonald%27s+breakfast+finish+in+Spain",
+  "time": "2019-12-06T09:58:54.555Z",
+  "audioFiles": ["2019-12-06_09_58_54_555_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said so",
+  "titleUrl": "https://www.google.com/search?q\u003dso",
+  "time": "2019-03-25T14:30:33.654Z",
+  "audioFiles": ["2019-03-25_14_30_33_654_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said you might be able to space",
+  "titleUrl": "https://www.google.com/search?q\u003dyou+might+be+able+to+space",
+  "time": "2019-01-06T19:34:58.574Z",
+  "audioFiles": ["2019-01-06_19_34_58_574_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said what does epicurean mean",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+does+epicurean+mean",
+  "time": "2017-10-14T10:48:25.214Z",
+  "audioFiles": ["2017-10-14_10_48_25_214_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what\u0027s a good vegan breakfast",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat%27s+a+good+vegan+breakfast",
+  "time": "2017-09-16T15:11:12.384Z",
+  "audioFiles": ["2017-09-16_15_11_12_384_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is the most common vegan cheese",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+the+most+common+vegan+cheese",
+  "time": "2017-09-16T15:08:52.548Z",
+  "audioFiles": ["2017-09-16_15_08_52_548_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what does a plant based egg look like",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+does+a+plant+based+egg+look+like",
+  "time": "2017-09-16T15:08:14.259Z",
+  "audioFiles": ["2017-09-16_15_08_14_259_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said is white wine vegan",
+  "titleUrl": "https://www.google.com/search?q\u003dis+white+wine+vegan",
+  "time": "2017-09-16T15:07:11.310Z",
+  "audioFiles": ["2017-09-16_15_07_11_310_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said is wine vegan",
+  "titleUrl": "https://www.google.com/search?q\u003dis+wine+vegan",
+  "time": "2017-09-16T15:06:44.016Z",
+  "audioFiles": ["2017-09-16_15_06_44_016_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said is beer vegan",
+  "titleUrl": "https://www.google.com/search?q\u003dis+beer+vegan",
+  "time": "2017-09-16T15:06:15.620Z",
+  "audioFiles": ["2017-09-16_15_06_15_620_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said OK Google what will the weather be like tomorrow",
+  "titleUrl": "https://www.google.com/search?q\u003dOK+Google+what+will+the+weather+be+like+tomorrow",
+  "time": "2017-08-27T15:09:46.986Z",
+  "audioFiles": ["2017-08-27_15_09_46_986_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said where is Muller ranked in the ATP Rankings",
+  "titleUrl": "https://www.google.com/search?q\u003dwhere+is+Muller+ranked+in+the+ATP+Rankings",
+  "time": "2017-07-10T18:33:17.172Z",
+  "audioFiles": ["2017-07-10_18_33_17_172_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said OK Google where is Muller ranked in the ATP Rankings",
+  "titleUrl": "https://www.google.com/search?q\u003dOK+Google+where+is+Muller+ranked+in+the+ATP+Rankings",
+  "time": "2017-07-10T18:33:04.080Z",
+  "audioFiles": ["2017-07-10_18_33_04_080_UTC.mp3"],
+  "products": ["Voice and Audio"]
+},{
+  "header": "Google App",
+  "title": "Said where is the nearest petrol station",
+  "titleUrl": "https://www.google.com/search?q\u003dwhere+is+the+nearest+petrol+station",
+  "time": "2017-02-04T13:55:15.130Z",
+  "audioFiles": ["2017-02-04_13_55_15_130_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said ok Google",
+  "titleUrl": "https://www.google.com/search?q\u003dok+Google",
+  "time": "2017-02-04T13:54:47.272Z",
+  "audioFiles": ["2017-02-04_13_54_47_272_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said find the nearest petrol station",
+  "titleUrl": "https://www.google.com/search?q\u003dfind+the+nearest+petrol+station",
+  "time": "2017-01-17T19:35:18.110Z",
+  "audioFiles": ["2017-01-17_19_35_18_110_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I use the rear windscreen wiper on a Skoda Octavia",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+use+the+rear+windscreen+wiper+on+a+Skoda+Octavia",
+  "time": "2017-01-17T19:33:52.205Z",
+  "audioFiles": ["2017-01-17_19_33_52_205_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I use the rear windscreen wiper on a",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+use+the+rear+windscreen+wiper+on+a",
+  "time": "2017-01-17T19:33:43.434Z",
+  "audioFiles": ["2017-01-17_19_33_43_434_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I stop the rear windscreen wiper on a Skoda Octavia",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+stop+the+rear+windscreen+wiper+on+a+Skoda+Octavia",
+  "time": "2017-01-17T19:32:27.135Z",
+  "audioFiles": ["2017-01-17_19_32_27_135_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how",
+  "titleUrl": "https://www.google.com/search?q\u003dhow",
+  "time": "2017-01-17T19:31:15.565Z",
+  "audioFiles": ["2017-01-17_19_31_15_565_UTC.mp3", "2017-01-17_19_31_04_712_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I stop the rear windscreen wiper on a Skoda Octavia",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+stop+the+rear+windscreen+wiper+on+a+Skoda+Octavia",
+  "time": "2017-01-17T19:30:42.741Z",
+  "audioFiles": ["2017-01-17_19_30_42_741_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I use",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+use",
+  "time": "2017-01-17T19:30:21.645Z",
+  "audioFiles": ["2017-01-17_19_30_21_645_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I stop",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+stop",
+  "time": "2017-01-17T19:29:07.954Z",
+  "audioFiles": ["2017-01-17_19_29_07_954_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said when does McDonald\u0027s stop serving breakfast on a Sunday",
+  "titleUrl": "https://www.google.com/search?q\u003dwhen+does+McDonald%27s+stop+serving+breakfast+on+a+Sunday",
+  "time": "2016-12-18T10:19:23.311Z",
+  "audioFiles": ["2016-12-18_10_19_23_311_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do estate agent fees work",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+estate+agent+fees+work",
+  "time": "2016-11-26T11:53:07.815Z",
+  "audioFiles": ["2016-11-26_11_53_07_815_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said as in a bit",
+  "titleUrl": "https://www.google.com/search?q\u003das+in+a+bit",
+  "time": "2016-10-14T18:48:27.211Z",
+  "audioFiles": ["2016-10-14_18_48_27_211_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said swivel sunbed before the Baghd",
+  "titleUrl": "https://www.google.com/search?q\u003dswivel+sunbed+before+the+Baghd",
+  "time": "2016-10-14T18:47:40.311Z",
+  "audioFiles": ["2016-10-14_18_47_40_311_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said Hamleys",
+  "titleUrl": "https://www.google.com/search?q\u003dHamleys",
+  "time": "2016-10-09T12:21:01.077Z",
+  "audioFiles": ["2016-10-09_12_21_01_077_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said unlimited",
+  "titleUrl": "https://www.google.com/search?q\u003dunlimited",
+  "time": "2016-10-09T12:11:17.587Z",
+  "audioFiles": ["2016-10-09_12_11_17_587_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said people who don\u0027t have interpersonal skills",
+  "titleUrl": "https://www.google.com/search?q\u003dpeople+who+don%27t+have+interpersonal+skills",
+  "time": "2016-10-05T17:43:04.633Z",
+  "audioFiles": ["2016-10-05_17_43_04_633_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how much is a person\u0027s life worth",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+much+is+a+person%27s+life+worth",
+  "time": "2016-09-30T20:15:08.683Z",
+  "audioFiles": ["2016-09-30_20_15_08_683_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how much does the National Institute of Clinical Excellence put on the cost of somebody\u0027s life",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+much+does+the+National+Institute+of+Clinical+Excellence+put+on+the+cost+of+somebody%27s+life",
+  "time": "2016-09-30T20:14:52.213Z",
+  "audioFiles": ["2016-09-30_20_14_52_213_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how much is a person\u0027s life worth in the UK",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+much+is+a+person%27s+life+worth+in+the+UK",
+  "time": "2016-09-30T20:12:08.138Z",
+  "audioFiles": ["2016-09-30_20_12_08_138_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how much does the Institute of Clinical Excellence",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+much+does+the+Institute+of+Clinical+Excellence",
+  "time": "2016-09-30T20:11:44.823Z",
+  "audioFiles": ["2016-09-30_20_11_44_823_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how much is a person\u0027s life worth",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+much+is+a+person%27s+life+worth",
+  "time": "2016-09-30T20:11:17.759Z",
+  "audioFiles": ["2016-09-30_20_11_17_759_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is London living wage",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+London+living+wage",
+  "time": "2016-09-13T20:31:06.759Z",
+  "audioFiles": ["2016-09-13_20_31_06_759_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said which British Prime Minister has been assassinated",
+  "titleUrl": "https://www.google.com/search?q\u003dwhich+British+Prime+Minister+has+been+assassinated",
+  "time": "2016-09-11T22:00:06.123Z",
+  "audioFiles": ["2016-09-11_22_00_06_123_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is utilitarianism",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+utilitarianism",
+  "time": "2016-09-11T18:29:12.959Z",
+  "audioFiles": ["2016-09-11_18_29_12_959_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how can I cook cod",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+can+I+cook+cod",
+  "time": "2016-09-11T18:25:52.350Z",
+  "audioFiles": ["2016-09-11_18_25_52_350_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is laissez-faire economics",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+laissez-faire+economics",
+  "time": "2016-09-11T18:23:36.707Z",
+  "audioFiles": ["2016-09-11_18_23_36_707_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is neoliberalism",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+neoliberalism",
+  "time": "2016-09-11T18:22:50.068Z",
+  "audioFiles": ["2016-09-11_18_22_50_068_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said what is neoliberalism",
+  "titleUrl": "https://www.google.com/search?q\u003dwhat+is+neoliberalism",
+  "time": "2016-09-11T18:22:08.826Z",
+  "audioFiles": ["2016-09-11_18_22_08_826_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+},{
+  "header": "Google App",
+  "title": "Said how do I get Strava to speak to me",
+  "titleUrl": "https://www.google.com/search?q\u003dhow+do+I+get+Strava+to+speak+to+me",
+  "time": "2016-09-11T12:24:37.381Z",
+  "audioFiles": ["2016-09-11_12_24_37_381_UTC.mp3"],
+  "products": ["Voice and Audio"],
+  "details": [{
+    "name": "Started by hotword"
+  }]
+}]

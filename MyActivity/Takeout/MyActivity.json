@@ -1,0 +1,122 @@
+[{
+  "header": "Takeout",
+  "title": "Initiated a Takeout",
+  "subtitles": [{
+    "name": "Requested the following services: My Activity (all resources)"
+  }, {
+    "name": "You specified that you wanted the archive in zip format, split into 2.00G files, and requested that the output be sent to your email"
+  }],
+  "time": "2020-05-06T10:22:07.184Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.173.110.145"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-06T08:02:20.903Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.173.110.145"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T22:51:57.218Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 2a01:4c8:476:566c:1:1:e8e9:78da"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T22:49:54.021Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 2a01:4c8:476:566c:1:1:e8e9:78da"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T22:49:47.277Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 2a01:4c8:476:566c:1:1:e8e9:78da"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Initiated a Takeout",
+  "subtitles": [{
+    "name": "Requested the following services: Google Input Tools (all resources), Google Pay (all resources), Google Play Store (all resources), Location History (all resources), Maps (all resources), Maps (your places) (all resources), and My Activity (all resources)"
+  }, {
+    "name": "You specified that you wanted the archive in zip format, split into 2.00G files, and requested that the output be sent to your email"
+  }],
+  "time": "2020-05-03T18:05:58.022Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 2a01:4c8:461:ef7:1:2:e60b:b0de"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Initiated a Takeout",
+  "subtitles": [{
+    "name": "Requested the following services: Fit (all resources), Google Input Tools (all resources), Google Pay (all resources), Google Photos (all resources), Google Play Store (all resources), Location History (all resources), Maps (all resources), Maps (your places) (all resources), and My Activity (all resources)"
+  }, {
+    "name": "You specified that you wanted the archive in zip format, split into 2.00G files, and requested that the output be sent to your email"
+  }],
+  "time": "2020-05-03T17:21:22.732Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Initiated a Takeout",
+  "subtitles": [{
+    "name": "Requested the following services: YouTube and YouTube Music (all resources)"
+  }, {
+    "name": "You specified that you wanted the archive in zip format, split into 2.00G files, and requested that the output be sent to your email"
+  }],
+  "time": "2020-05-03T17:16:45.737Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T17:16:01.557Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T17:15:26.801Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Downloaded a Takeout archive",
+  "time": "2020-05-03T17:15:23.289Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+},{
+  "header": "Takeout",
+  "title": "Initiated a Takeout",
+  "subtitles": [{
+    "name": "Requested the following services: Chrome (all resources)"
+  }, {
+    "name": "You specified that you wanted the archive in zip format, split into 2.00G files, and requested that the output be sent to your email"
+  }],
+  "time": "2020-05-03T17:14:34.845Z",
+  "products": ["Takeout"],
+  "details": [{
+    "name": "From IP 86.188.28.49"
+  }]
+}]

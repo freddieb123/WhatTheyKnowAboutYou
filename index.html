@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What They Know About You</title>
+    <link href='./LocationHistory/style.css' rel = 'stylesheet' type = "text/css">
+  </head>
+
+  <body>
+    <h1 id = 'page-title'> What They Know About You </h1>
+    <div class = 'topnav'>
+      <a href = './index.html'>Home</a>
+      <a href = "./downloaddata.html">Download Your Data</a>
+      <a href = "./MyActivity/Ads/index.html">Google Ads</a>
+      <a href = "./LoocationHistory/index.html">Google Location</a>
+    </div>
+    <h3> Get to grips with your personal data</h3>
+    <div id = 'exp'>
+    <p> This is a project to visualise some of the data that companies hold about you. We've started with Google,
+      as they seem to have the most.<br><br> The aim is to increase awareness of the data you're giving to companies.
+      We are not suggesting it is a good or a bad thing.<br><br>Get started by clicking <strong>Download your Data</strong>
+       and following the instructions.<br><br>This is a project I have started to learn D3.js. If you're interested in learning
+     it too, or are already an expert and want to contribute, please do have a look at the <a href src =''>GitHub</a>.<br><br></p>
+     <h3>Example:<br><br> Where Google knows, or thinks, you have been in the world.</h3>
+     <img src='ExampleViz.png'/>
+
+     <p><strong>NOTE</strong>: None of your data leaves your computer
+   when you upload to this site. All data is processed in the browser, and is lost as you refresh the page.</p>
+
+    <script type = text/javascript src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script type = text/javascript src = 'locationHistory.js'></script>
+  </body>
+</html>
