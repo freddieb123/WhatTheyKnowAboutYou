@@ -53,7 +53,8 @@ async function draw_chart(data_temp) {
 //  .rollup(function(v) {return v.length})
 //  .entries(data);
 
-  startDateX = data[data.length-1]
+  //startDateX = data[data.length-1]
+  startDateX = new Date(2016, 1, 1, 1, 0, 0, 0)
   endDateX = data[0]
   console.log(data[data.length-1])
   num_of_days = d3.timeDay.count(startDateX, endDateX)
