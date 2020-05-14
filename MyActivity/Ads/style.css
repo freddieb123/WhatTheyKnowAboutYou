@@ -36,7 +36,7 @@ body {
   margin: 10px;
     }
 
-#exp {
+#exp2 {
   text-align: justify;
   max-width: 700px;
   margin: auto;
@@ -70,5 +70,6 @@ div.tooltip {
 }
 
 #chart1, #chart2 {
+  margin-top: 20px;
   text-align: center;
 }

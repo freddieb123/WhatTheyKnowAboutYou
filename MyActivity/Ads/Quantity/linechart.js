@@ -8,7 +8,7 @@ input.addEventListener("change", function(event) {
   const reader = new FileReader();
   reader.onload = function() {
     let data = JSON.parse(reader.result)
-    console.log(data)
+    document.getElementById("exp2").style.display = "none";
     draw_chart(data)
   }
   reader.readAsText(input.files[0])
