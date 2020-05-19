@@ -9,6 +9,7 @@ let previous = [config.lon,config.lat]
 let t=0;
 let change;
 let error = false;
+let count_false;
 
 let date_test =  new Date("October 22, 2019 11:13:00")
 date_test = date_test.toDateString()
@@ -72,17 +73,20 @@ function draw4(route) {
         return d
       }
   });
+  route2.shift()
   console.log(route2.length)
   if (route2.length===0) {
     d3.select(".map-wrapper")
     .append('text')
       .text("Sorry, Google hasn't got any of your data for this day.")
     error = true
+    count_false=0
   }
   else {
     console.log('rmoving')
     error=false
     going=true
+    count_false ++
   }
 
   long = []
@@ -203,6 +207,10 @@ function draw4(route) {
 
             if (t > 1 && t < route2.length) {
                 contextTracks.beginPath();
+                console.log(t)
+                if (t<3) {
+                  previous = [trackData.longitudeE7,trackData.latitudeE7]
+                }
                 current = [trackData.longitudeE7,trackData.latitudeE7]
                 x_c = projection([current[0],current[1]])[0]
                 y_c = projection([current[0],current[1]])[1]
@@ -264,7 +272,7 @@ function draw4(route) {
     }
     let int = d3.interval(function () {
       console.log(change,error)
-        if (change) {if(error) {int.stop(); change=false; error = false}}
+        if (change) {if(count_false!=1) {int.stop(); change=false; error = false}}
         if (t >= (maxElapsed)) {t=0; restart(); }
         if (going) {
             step(t);
