@@ -9,9 +9,30 @@
     <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
   </head>
   <body>
-    <input type="date" id="date" name="trip-start" value='2020-01-01'>
-    <label for="upload">Upload your file:</label>
-    <input type="file" id="fileupload" name="Uploader" accept="file/json"/>
+    <h1 id = 'page-title'> What They Know About You </h1>
+    <div class = 'topnav'>
+      <a href = '../../home.html'>Home</a>
+      <a href = "../../downloaddata.html">Download Your Data</a>
+      <a href = "../../MyActivity/Ads/index.html">Google Ads</a>
+      <a href = "../index.html">Location: Where in the world?</a>
+      <a href = "./index.html">Location: On this day</a>
+    </div>
+    <h3> On this Day</h3>
+    <div id = 'exp2'>
+      <p> Having Google know where you are can be useful. On this page you can see your movements on any given day. It might be erratic, as the resolution of some pings might be coarse.<br><br>
+      Instructions:<br></p>
+      <ol>
+        <li>Follow the instructions on the homepage to download your data from Google. You should have downloaded the <strong>Location History</strong> selection. </li>
+        <li>Click upload below, and select the file called <strong>Location History.json</strong>, in the <strong>Location History</strong> folder (but not the individual years' folders). </li>
+        <li>Have a look at your data that will appear below. You can select any date from the menu, once the file has loaded. Please be patient, sometimes the files can be large! </li>
+      </ol>
+    <label for="fileupload">Upload your file:</label>
+    <input type="file" id="fileupload" name="fileupload" accept="file/json"/>
+    </div>
+    <label for="date" id="datelabel"><strong>Select a Date:</strong></label>
+    <input type="date" id="date" name="date" value='2020-01-01'>
+    <p id="target"></p>
+    <p id ="numberofpoints"></p>
     <div class="map-wrapper">
       <svg width="800" height="600"></svg>
       <canvas id="tracks" width="800" height="600"></canvas>

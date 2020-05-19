@@ -1,7 +1,7 @@
 //https://github.com/epsalt/d3-running-map
 var config = {
     "scale": 50000,
-    "fps": 5,
+    "fps": 10,
     "resampleInterval": 30
 };
 let current;
@@ -11,7 +11,7 @@ let change;
 let error = false;
 let count_false;
 
-let date_test =  new Date("October 22, 2019 11:13:00")
+let date_test =  new Date("January 2, 2020 11:13:00")
 date_test = date_test.toDateString()
 
 var canvasPoints = document.querySelector("canvas#points"),
@@ -27,7 +27,6 @@ input.addEventListener("change", function(event) {
   const reader = new FileReader();
   reader.onload = async function() {
     route = await JSON.parse(reader.result)
-    console.log(route)
     contextTracks.clearRect(0, 0, width, height);
     contextPoints.clearRect(0,0,width,height);
     dataContainer.selectAll("custom.geoPath").remove()
@@ -44,6 +43,11 @@ input = document.querySelector('input[type=file]');
 input.addEventListener("change", function(event) {
   const reader = new FileReader();
   reader.onload = function() {
+    document.getElementById("exp2").style.display = "none";
+    document.getElementById("datelabel").style.display = "inline";
+    document.getElementById("date").style.display = "inline";
+    document.getElementById("numberofpoints").style.display = "block";
+
     route = JSON.parse(reader.result)
     draw4(route)
   }
@@ -66,28 +70,31 @@ function draw4(route) {
   date = document.getElementById("date").value
   date=new Date(date)
   date = date.toDateString()
-  console.log(date)
 
   let route2 = route.filter(function(d) {
-      if (d.date ===date) {
+      if (d.date ===date & d.accuracy <=800) {
         return d
       }
   });
   route2.shift()
-  console.log(route2.length)
   if (route2.length===0) {
-    d3.select(".map-wrapper")
-    .append('text')
-      .text("Sorry, Google hasn't got any of your data for this day.")
+    document.getElementById("numberofpoints").style.display = "none";
+    document.getElementById('target').innerHTML = "Sorry, Google hasn't got any of your data for this day."
+    document.getElementById('target').style.display = "block"
+
     error = true
     count_false=0
   }
   else {
-    console.log('rmoving')
+    document.getElementById('target').style.display = "none"
+    document.getElementById("numberofpoints").style.display = "block";
     error=false
     going=true
     count_false ++
   }
+
+  document.getElementById('numberofpoints').innerHTML = 'Number of location pings for this day: ' + route2.length
+
 
   long = []
   lat = []
@@ -134,13 +141,12 @@ function draw4(route) {
     // min_lat_proj = projection([min_lat2.longitudeE7,min_lat2.latitudeE7])[1]
     // max_lat_proj = projection([max_lat2.longitudeE7,max_lat2.latitudeE7])[1]
 
-    scale = 0.5 / Math.min(
+    scale = 0.4 / Math.min(
           (max_lat2.latitudeE7 - min_lat2.latitudeE7) / height,
           (max_long2.longitudeE7 - min_long2.longitudeE7) / width
         );
 
     let trans = [(width-(scale*(max_long2.longitudeE7+min_long2.longitudeE7)/2)),(height-(scale*(max_lat.latitudeE7+min_lat.latitudeE7)/2))]
-    console.log(scale)
     // projection.scale(scale)
     //           .translate(trans)
     var projection = d3.geoMercator()
@@ -161,7 +167,6 @@ function draw4(route) {
       .scale(projection.scale() * 2 * Math.PI)
       //.scale(projection.scale() * 2 * Math.PI)
       .translate(projection([0, 0]))();
-      console.log(tiles)
 
   var playButton = d3.select("#play-button"),
       restartButton = d3.select("#restart-button"),
@@ -200,14 +205,12 @@ function draw4(route) {
   function drawCanvas(t) {
         contextTracks.strokeStyle = "rgba(74,20,134,0.5)";
         contextTracks.lineWidth = 3;
-        console.log(tracks)
         tracks.each(function () {
             var node = d3.select(tracks._groups[0][t]),
                 trackData = node.data()[0];
 
             if (t > 1 && t < route2.length) {
                 contextTracks.beginPath();
-                console.log(t)
                 if (t<3) {
                   previous = [trackData.longitudeE7,trackData.latitudeE7]
                 }
@@ -271,7 +274,6 @@ function draw4(route) {
         step(t);
     }
     let int = d3.interval(function () {
-      console.log(change,error)
         if (change) {if(count_false!=1) {int.stop(); change=false; error = false}}
         if (t >= (maxElapsed)) {t=0; restart(); }
         if (going) {

@@ -1,4 +1,3 @@
-
 var config = {
     "scale": 98304,
     "lat": 51.0375,
@@ -6,8 +5,6 @@ var config = {
     "fps": 15,
     "resampleInterval": 30
 };
-
-let date_test =  new Date("October 13, 2019 11:13:00")
 
 var canvasPoints = document.querySelector("canvas#points"),
     contextPoints = canvasPoints.getContext("2d"),
@@ -46,49 +43,37 @@ d3.select("svg").selectAll("image")
     .attr("width", tiles.scale)
     .attr("height", tiles.scale);
 
-input = document.querySelector('input[type=file]');
-input.addEventListener("change", function(event) {
-  const reader = new FileReader();
-  reader.onload = function() {
-    let route = JSON.parse(reader.result)
-    draw4(route)
-  }
-  reader.readAsText(input.files[0])
-},false)
+d3.csv("assets/activity_data.csv", function (error, data) {
+    if (error) { throw error; }
 
-function draw4(route) {
-  console.log(route.locations)
-  route.locations.forEach((obj,i) => {
-    obj.latitudeE7 = obj.latitudeE7 / 10 ** 7
-    obj.longitudeE7 = obj.longitudeE7 / 10 ** 7
-    obj.full_date = new Date(parseInt(obj.timestampMs))
-    obj.date = obj.full_date.toDateString()
-    })
-  route = route[Object.keys(route)[0]]
+    data = data.map(function (d) { return [+d.lon, +d.lat, +d.index, +d.len]; });
 
-  var nested = d3.nest()
-        .key(function (d) { return d.date; })
-        .entries(route);
+    var nested = d3.nest()
+        .key(function (d) { return d[2]; })
+        .entries(data);
 
-  var tracks = dataContainer.selectAll("custom.geoPath")
-        .data(nested, function(d) {
-          if (d.date === date_test) {
-            return d;
-          }
-        })
+    var maxElapsed = Math.max.apply(Math, (data.map(function (d) { return d[3]; })));
+
+    var tracks = dataContainer.selectAll("custom.geoPath")
+        .data(nested)
         .enter()
         .append("custom")
         .classed("geoPath", true);
 
-  var runners = dataContainer.selectAll("custom.circle")
+    var runners = dataContainer.selectAll("custom.circle")
         .data(nested)
         .enter()
         .append("custom")
         .classed("circle", true)
         .attr("radius", 2);
-  console.log(runners)
 
-  function drawCanvas(t) {
+    var interval = 1000 / config.fps,
+        t = 0,
+        going = true,
+        pct,
+        time;
+
+    function drawCanvas(t) {
         contextTracks.strokeStyle = "rgba(74,20,134,0.2)";
         contextTracks.lineWidth = 3;
 
@@ -122,4 +107,47 @@ function draw4(route) {
         return projection(d.values[Math.min(t, d.values[0][3] - 1)]);
     };
 
-}
+    function step(t) {
+        runners
+            .attr("x", function (d) { return coord_slicer(d, t)[0]; })
+            .attr("y", function (d) { return coord_slicer(d, t)[1]; });
+
+        time = new Date(null);
+        time.setSeconds(t * config.resampleInterval);
+        time = time.toISOString().substr(11, 5);
+        pct = (t / maxElapsed * 100).toFixed(0);
+        if (pct.length === 1) { pct = "0" + pct; }
+
+        timer.text("Elapsed: " + time + "/" + pct + "%");
+
+        drawCanvas(t);
+    }
+
+    function restart() {
+        contextTracks.clearRect(0, 0, width, height);
+        t = 0;
+        step(t);
+    }
+
+    d3.interval(function () {
+        if (t > maxElapsed) { restart(); }
+        if (going) {
+            step(t);
+            t++;
+        }
+    }, interval);
+
+    function pauseResume() {
+        if (going) {
+            playButton.text("Resume");
+            going = false;
+        } else {
+            playButton.text("Pause");
+            going = true;
+        }
+    }
+
+    playButton.on("click", pauseResume);
+    restartButton.on("click", restart);
+
+});
