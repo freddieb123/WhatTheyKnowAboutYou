@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Running Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
+  </head>
+  <body>
+    <input type="date" id="date" name="trip-start" value='2020-01-01'>
+    <label for="upload">Upload your file:</label>
+    <input type="file" id="fileupload" name="Uploader" accept="file/json"/>
+    <div class="map-wrapper">
+      <svg width="800" height="600"></svg>
+      <canvas id="tracks" width="800" height="600"></canvas>
+      <canvas id="points" width="800" height="600"></canvas>
+      <div id="controls">
+        <div id="timer">Time:</div>
+        <button id="play-button">Pause</button>
+        <button id="restart-button">Restart</button>
+      </div>
+    </div>
+    <script src="dayhistory.js"></script>
+    <p>Tiles copyright OpenStreetMap <a href="https://www.openstreetmap.org/copyright">contributors.</a></p>
+  </body>
+</html>
